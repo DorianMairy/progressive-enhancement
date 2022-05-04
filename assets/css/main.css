@@ -1,0 +1,128 @@
+body {
+    max-width: 90%;
+    margin: 0 auto;
+}
+header {
+    height: auto;
+    text-align: center;
+    background-color: #2c3e50;
+}
+footer {
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+    color: brown;
+    background-color: #2c3e50;
+}
+p {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+p.un {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    white-space: pre;
+}
+p.deux {
+    margin-bottom: 30px;
+    white-space: pre;
+}
+p.trois {
+    margin-bottom: 30px;
+}
+p.footer {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+p.test {
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+h2 {
+    font-size: 35px;
+    color: brown;
+    letter-spacing: 2px;
+
+}
+h3 {
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    letter-spacing: 2px;
+}
+h4 {
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    letter-spacing: 2px;
+}
+h5 {
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    letter-spacing: 2px;
+}
+img {
+    margin-left: 30%;
+    height: 40%;
+    width: 40%;
+}
+.preamble {
+    text-align: center;
+    /*background-color: brown;*/
+}
+.story {
+    color: white;
+    text-align: center;
+    margin-left: 12%;
+    width: 75%;
+    background-color: #2c3e50;
+    border-radius: 10px;
+}
+.table {
+    height: auto;
+    /*background-color: yellow;*/
+}
+.conclusion {
+    height: auto;
+    /*background-color: green;*/
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+tr {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+p.alan {
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+}
+q.green {
+    box-sizing: border-box;
+    width: 25%;
+    border-left: solid #27ae60 5px;
+    padding: 5px;
+    background-color: gray;
+}
+q.red {
+    box-sizing: border-box;
+    width: 25%;
+    border-left: solid #c0392b 5px;
+    padding: 5px;
+    background-color: gray;
+}
