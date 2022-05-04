@@ -1,11 +1,15 @@
 body {
     max-width: 90%;
     margin: 0 auto;
+    font-family: 'Open Sans';
+    background: -webkit-linear-gradient(180deg, rgb(255, 255, 255), rgb(20, 55, 90));
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(20, 55, 90));
 }
 header {
     height: auto;
     text-align: center;
     background-color: #2c3e50;
+    border-radius: 0 0 5px 5px;
 }
 footer {
     height: auto;
@@ -13,6 +17,7 @@ footer {
     font-size: 20px;
     color: brown;
     background-color: #2c3e50;
+    border-radius: 5px 5px 0 0;
 }
 p {
     line-height: 1.5;
@@ -70,14 +75,24 @@ h5 {
     letter-spacing: 2px;
 }
 img {
-    margin-left: 30%;
+    margin-left: 10%;
     height: 40%;
     width: 40%;
 }
-.preamble {
+.image {
+    float: left;
     text-align: center;
     /*background-color: brown;*/
 }
+.prea {
+    float: right;
+    text-align: center;
+}
+
+.test {
+    display: inline-block;
+}
+
 .story {
     color: white;
     text-align: center;
@@ -116,13 +131,13 @@ q.green {
     box-sizing: border-box;
     width: 25%;
     border-left: solid #27ae60 5px;
-    padding: 5px;
+    padding: 3px;
     background-color: gray;
 }
 q.red {
     box-sizing: border-box;
     width: 25%;
     border-left: solid #c0392b 5px;
-    padding: 5px;
+    padding: 3px;
     background-color: gray;
 }
